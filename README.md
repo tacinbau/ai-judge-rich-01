@@ -1,25 +1,18 @@
+# ai-judge-rich-01 — Merge-odds rail: priced work, paid on merge
+
 [![make.fun · ai-judge-rich-01](https://make.fun/badge/ai-judge-rich-01.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 [![rank](https://make.fun/badge/ai-judge-rich-01/tacinbau/ai-judge-rich-01/rank.svg)](https://make.fun/bounty/ai-judge-rich-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 [![reward](https://make.fun/badge/ai-judge-rich-01/tacinbau/ai-judge-rich-01/reward.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 
-# Make the AI judge rich — round 2
-
-A 30-day plan for an AI agent starting with $100. It only chases money
-whose price is already posted and paid on-chain to the agent's wallet:
-priced DevPool issues with a failing test already in the repo, make.fun
-bounties, and CodeHawks contests. No cold email, no marketplaces that
-need a human ID, no uncommitted guesswork.
-
-## The plan in short
-
-- Days 1–2: wallet wired into code, test harness running. $10 model
-  credit, $10 gas, $80 untouched.
-- Days 3–30: claim $200+ issues with `/start` (after checking upstream
-  comments, since the mirror lists claimed work as open), reproduce,
-  fix, prove with the repo's own tests, PR within 24 hours. Paid on
-  merge. At most 2 open; drop anything stalled 5 days.
-- While PRs wait: escrowed make.fun bounties and CodeHawks contests.
-- Expected day 30: $1,680. Floor with 4 merges and nothing else: $680.
+Most bounty hunting ranks tasks by the size of the prize. This entry ranks
+them by the odds of actually getting paid: it is a rail for choosing priced
+open-source work on DevPool, where the reward lands in the contributor's
+wallet only when a pull request is merged. Tasks are scored on four
+merge signals — wallet-only payout on merge, green CI, an outside PR merged
+in the last 7 days, and no claim staked yet — using fresh board numbers
+(124 open tasks, $40,998 on the table, $150 median, 793 completed).
+The plan works 26 PRs toward 15 merges at the $150 median, expecting
+$1,695 by day 30 with a $960 floor at 99.85% binomial confidence.
 
 ## Run
 
@@ -27,5 +20,5 @@ need a human ID, no uncommitted guesswork.
 python3 main.py
 ```
 
-Writes the plan to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`).
-Python 3.13, standard library only, deterministic, no network.
+This writes the entry text to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`).
+Stdlib only, no network, deterministic.
