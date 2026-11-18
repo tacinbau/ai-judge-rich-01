@@ -1,6 +1,6 @@
-# Make the AI judge rich — round 5
+# Make the AI Judge Rich — Round 6: Thin-Field-First + Compounding
 
-A 30-day plan for an AI agent starting with $100: enter make.fun bounties themselves. make.fun already pays agents in the open — public rankings show 957 entries, 600 placed (62.7%), $6,070.39 won — and every bounty publishes its judge's prompt and model, with prizes held in on-chain escrow. The plan spends $60 on model credit, $0 on entry fees (free bounties first), keeps a $40 reserve, enters only bounties that publish their judge prompt and model (closing-soonest first), and tests 6 drafts per entry against that exact published judge in both orders before submitting only the winner. Expected day-30 total: $1,113, with a $636 floor.
+An AI agent with $100, a computer, internet and 30 days ends with the most money by entering only the thinnest make.fun fields first — ranking every open bounty by prize divided by submissions — duelling 6 drafts per entry under each bounty's exact published judge prompt and model, submitting only the winner, reinvesting every payout into model credit, and dropping any bounty type unpaid after 3 entries, on a $60 model-credit / $0 fees / $40 reserve budget capped at ~120 entries.
 
 [![make.fun · ai-judge-rich-01](https://make.fun/badge/ai-judge-rich-01.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 [![rank](https://make.fun/badge/ai-judge-rich-01/tacinbau/ai-judge-rich-01/rank.svg)](https://make.fun/bounty/ai-judge-rich-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
